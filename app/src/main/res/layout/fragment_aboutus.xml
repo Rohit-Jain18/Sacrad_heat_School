@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    tools:context=".ui.aboutus">
+
+    <TextView
+        android:paddingStart="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_sacred_heart_school"
+        android:textStyle="bold"
+        android:fontFamily="@font/quicksand_bold"
+        android:textSize="15sp"
+        tools:ignore="RtlSymmetry" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        tools:ignore="ScrollViewCount">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- FrameLayout for banner and logo overlay -->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+<androidx.cardview.widget.CardView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="12dp">
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/aboutusbanner"
+        android:scaleType="centerCrop" />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo"
+        android:scaleType="fitCenter" />
+</androidx.cardview.widget.CardView>
+
+
+
+
+            </FrameLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="20dp"
+                android:id="@+id/cardView_about"
+                android:backgroundTint="#7A57D1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:gravity="center"
+                        android:fontFamily="@font/quicksand_bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="About Us"
+                        android:textColor="@android:color/white"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:paddingBottom="8dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/white"
+                        android:fontFamily="@font/muli_semibold"
+                        android:textAlignment="viewStart"
+                        android:justificationMode="inter_word"
+                        android:textSize="16sp"
+                        android:lineSpacingExtra="4dp"
+                        android:text="Sacred Heart School is a premier educational institution dedicated to providing quality education and fostering holistic development of students. Our mission is to nurture young minds with knowledge, values, and skills necessary to excel in a dynamic world."
+                        tools:targetApi="o" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="20dp"
+                android:id="@+id/cardView_manager_message"
+                android:backgroundTint="#FF4081"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Message From The Manager"
+                        android:fontFamily="@font/quicksand_bold"
+                        android:textColor="@android:color/white"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:paddingBottom="8dp" />
+
+                    <TextView
+                        android:fontFamily="@font/muli_semibold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/white"
+                        android:textAlignment="viewStart"
+                        android:justificationMode="inter_word"
+                        android:textSize="16sp"
+                        android:lineSpacingExtra="4dp"
+                        android:text="@string/generally_kids_are_having_a_tough_mind_with_tender_heart_we_train_them_to_grow_up_to_escape_from_the_undue_stress_tension_depression_and_strengthening_the_sub_conscious_mind_with_strong_affirmations_for_our_smart_generation_school_has_smart_plans_based_on_all_types_of_wellness_like_physical_mental_intellectual_spiritual_emotional_social_environmental_and_occupational_the_scholars_are_inspired_by_trained_faculty_members_invariably_to_boost_up_the_brain_capacity_through_brain_gym_here_student_acquire_the_knowledge_and_habit_to_succeed_in_life_and_more_than_that_they_may_become_an_ideal_citizen_what_we_learn_and_teach_with_pleasure_we_never_forget"
+                        tools:targetApi="o" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="20dp"
+                android:id="@+id/cardView_vision_mission"
+                android:backgroundTint="#4CAF50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/our_vision_and_mission"
+                        android:fontFamily="@font/quicksand_bold"
+                        android:textColor="@android:color/white"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:paddingBottom="8dp" />
+
+                    <TextView
+                        android:fontFamily="@font/muli_semibold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/white"
+                        android:textAlignment="viewStart"
+                        android:justificationMode="inter_word"
+                        android:textSize="16sp"
+                        android:lineSpacingExtra="4dp"
+                        android:text="@string/every_student_has_a_unique_identity_with_their_hidden_talents_the_school_provides_a_proper_platform_to_grow_in_all_aspects_like_physical_mental_social_emotional_moral_and_spiritual_through_its_programmes_the_future_society_should_learn_to_manage_stress_work_together_by_using_maximum_brain_for_better_tomorrow_and_keep_a_close_relationship_with_nature_creature_and_creator_through_holistic_education_plan_we_believe_that_every_student_will_have_to_face_some_challenges_and_competition_in_their_individual_life_to_grow_in_the_present_scenario_school_plays_a_great_role_in_the_inner_growth_of_a_student_through_brain_wings_mantra_programmes_we_believe_that_today_s_student_is_tomorrow_s_citizen_the_school_prepares_a_generation_for_an_ideal_society_which_will_be_free_from_every_evil_so_that_everyone_can_live_a_better_life"
+                        tools:targetApi="o" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

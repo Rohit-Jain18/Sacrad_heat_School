@@ -1,0 +1,5 @@
+<!-- res/drawable/rounded_top.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#DB1616"/> <!-- Change the color to match the image background -->
+    <corners android:topLeftRadius="120dp" android:topRightRadius="120dp"/>
+</shape>

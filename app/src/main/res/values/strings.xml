@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Sacred_Heart</string>
+    <string name="title_activity_navdrawer">Navdrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">Best School in Hanumangarh</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="academics">Academics</string>
+    <string name="about_us">About Us</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="academicss">Academics</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="apply_now">Apply Now</string>
+    <string name="better_education_for_a_better_world">Better Education for a Better World 🌍</string>
+    <string name="quality_education_n_life_long_learning_n_regular_innovation_n_smart_generation_plans">• Quality Education,\n• Life long learning,\n• Regular innovation,\n• Smart generation plans</string>
+    <string name="h1">Goals and Objectives</string>
+    <string name="h2">Status and Strength</string>
+
+    <string name="ah1">Academic</string>
+    <string name="ah2">Objective of Curriculum</string>
+    <string name="h3">Happy School Plan</string>
+    <string name="h4">Brain Wings Mantra</string>
+    <string name="b1">• Life long learning,\n• Regular innovation,\n• Smart generation plans</string>
+    <string name="b2">• Status and Strength,\n• CBSE pattern,\n• English medium,\n• Dynamic management,\n• Promotes Indian cultural environment</string>
+    <string name="b3">• Positive discipline,\n• Reasonable and fair workload,\n• Regular innovation,\n• De-emphasis on rote system</string>
+    <string name="b4">•Personality booster plan,\n• Sevenfold learning,\n•Brain acto sessions</string>
+    <string name="admission_open">Admission Open 📖 </string>
+    <string name="for_ay_25_26">For AY 25-26</string>
+    <string name="home_academics"><![CDATA[Home>Academics]]></string>
+    <string name="image">image</string>
+    <string name="s">Academics</string>
+    <string name="aca2">• Creative and flexible approaches to learning and teaching.
+        \n \n• Opportunities for students to extend their learning outside the formal curriculum including an entitlement to four hours per week of enrichment activities.
+        \n \n• Making effective use of new technologies to motivate and inspire students.
+         \n\n• Offering an innovative curriculum developed with the aspiration and interests of the student at the centre.
+     \n \n• Learning and teaching takes place in a safe and purposeful environment.
+     \n\n• Promote children’s physical fitness, health and well being.
+        \n \n• Inculcate values and foster cultural learning and an interdependent society.
+ \n\n• Enhance self awareness and explore innate potential
+    </string>
+    <string name="aca">• For the all-round development of the children, we not only provide a rich and challenging curriculum but also we use methodologies and techniques. \n\n• unique and un-experienced brain gym sessions enable each child to develop knowledge and skills.\n \n• You play an important part in your child’s learning and we are committed to working in partnership with you.  \n\n• We believe that children learn best when home and school work together for their benefit. </string>
+    <string name="school_logo">School Logo</string>
+    <string name="about_sacred_heart_school">About Sacred Heart School</string>
+    <string name="todo">TODO</string>
+    <string name="every_student_has_a_unique_identity_with_their_hidden_talents_the_school_provides_a_proper_platform_to_grow_in_all_aspects_like_physical_mental_social_emotional_moral_and_spiritual_through_its_programmes_the_future_society_should_learn_to_manage_stress_work_together_by_using_maximum_brain_for_better_tomorrow_and_keep_a_close_relationship_with_nature_creature_and_creator_through_holistic_education_plan_we_believe_that_every_student_will_have_to_face_some_challenges_and_competition_in_their_individual_life_to_grow_in_the_present_scenario_school_plays_a_great_role_in_the_inner_growth_of_a_student_through_brain_wings_mantra_programmes_we_believe_that_today_s_student_is_tomorrow_s_citizen_the_school_prepares_a_generation_for_an_ideal_society_which_will_be_free_from_every_evil_so_that_everyone_can_live_a_better_life">Every student has a unique identity with their hidden talents. The school provides a proper platform to grow in all aspects like- physical, mental, social, emotional, moral and spiritual through its programmes. The future society should learn to manage stress, work together by using maximum brain for better tomorrow and keep a close relationship with nature, creature and creator through holistic education plan. We believe that every student will have to face some challenges and competition in their individual life to grow in the present scenario. School plays a great role in the inner growth of a student through Brain Wings Mantra programmes. We believe that today’s student is tomorrow’s citizen, the school prepares a generation for an ideal society which will be free from every evil so that everyone can live a better life.</string>
+    <string name="our_vision_and_mission">Our Vision and Mission</string>
+    <string name="generally_kids_are_having_a_tough_mind_with_tender_heart_we_train_them_to_grow_up_to_escape_from_the_undue_stress_tension_depression_and_strengthening_the_sub_conscious_mind_with_strong_affirmations_for_our_smart_generation_school_has_smart_plans_based_on_all_types_of_wellness_like_physical_mental_intellectual_spiritual_emotional_social_environmental_and_occupational_the_scholars_are_inspired_by_trained_faculty_members_invariably_to_boost_up_the_brain_capacity_through_brain_gym_here_student_acquire_the_knowledge_and_habit_to_succeed_in_life_and_more_than_that_they_may_become_an_ideal_citizen_what_we_learn_and_teach_with_pleasure_we_never_forget">Generally kids are having a tough mind with tender heart, we train them to grow up to escape from the undue stress, tension, depression and strengthening the sub-conscious mind with strong affirmations. For our smart generation school has smart plans based on all types of wellness like- physical, mental, intellectual, spiritual, emotional, social, environmental and occupational. The scholars are inspired by trained faculty members invariably to boost up the brain capacity through BRAIN GYM. Here student acquire the knowledge and habit to succeed in life and more than that they may become an ideal citizen. “WHAT WE LEARN and TEACH WITH PLEASURE, WE NEVER FORGET.”</string>
+</resources>
